@@ -1,0 +1,39 @@
+# Please note: the "master" branch should be placed as first element for every product in the "versions" list.
+
+kubermatic:
+  name: Kubermatic
+  logo: "img/header-logo-kubermatic.png"
+  description: Automate multicloud, on-prem, and edge operations with a single management UI enabling you to deliver the cloud native transformation immediately.
+  versions:
+    - release: master
+      name: master
+    - release: v2.15
+      name: v2.15
+    - release: v2.14
+      name: v2.14
+    - release: v2.13
+      name: v2.13
+    - release: v2.12
+      name: v2.12
+kubeone:
+  name: KubeOne
+  logo: "img/header-logo-kubeone.png"
+  description: Automate operations of a single Kubernetes cluster on your chosen cloud, on-prem, or edge environment.
+  versions:
+    - release: master
+      name: master
+    - release: v1.0
+      name: v1.0
+kubecarrier:
+  name: KubeCarrier
+  logo: "img/header-logo-kubecarrier.png"
+  description: The operator of operators. Centrally manage all your services and applications across multiple clusters, clouds and regions with Kubernetes native API and tooling.
+  versions:
+    - release: master
+      name: master
+    - release: v0.3
+      name: v0.3
+    - release: v0.2
+      name: v0.2
+    - release: v0.1
+      name: v0.1

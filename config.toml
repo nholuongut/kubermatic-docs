@@ -1,0 +1,80 @@
+baseURL = "https://docs.kubermatic.com/"
+theme = "hugo-theme-learn"
+languageCode = "en-us"
+title = "Kubermatic Docs"
+
+[outputs]
+home = ["HTML"]
+section = ["HTML", "JSON"]
+
+[params]
+googleTagManager = "GTM-PHMNDW2"
+# Prefix URL to edit current page. Will display an "Edit this page" button on top right hand corner of every page.
+# Useful to give opportunity to people to create merge request for your doc.
+# See the config.toml file from this documentation site to have an example.
+editURL = "https://github.com/kubermatic/docs/edit/master/content/"
+# Author of the site, will be used in meta information
+author = "Kubermatic GmbH"
+# Description of the site, will be used in meta information
+description = "Official Kubermatic Documentation"
+# Shows a checkmark for visited pages on the menu
+showVisitedLinks = false
+# Disable search function. It will hide search bar
+disableSearch = false
+# Javascript and CSS cache are automatically busted when new version of site is generated.
+# Set this to true to disable this behavior (some proxies don't handle well this optimization)
+disableAssetsBusting = false
+# Set this to true to disable copy-to-clipboard button for inline code.
+disableInlineCopyToClipBoard = true
+# A title for shortcuts in menu is set by default. Set this to true to disable it.
+disableShortcutsTitle = true
+# When using mulitlingual website, disable the switch language button.
+disableLanguageSwitchingButton = true
+# Order sections in menu by "weight" or "title". Default to "weight"
+ordersectionsby = "weight"
+# Change default color scheme with a variant one. Can be "red", "blue", "green".
+themeVariant = "kubermatic"
+# English is the default language
+defaultContentLanguage = "en"
+# Force to have /en/my-page and /fr/my-page routes, even for default language.
+defaultContentLanguageInSubdir = true
+baseWebsiteUrl = "https://www.kubermatic.com"
+
+[Languages]
+[Languages.en]
+title = "Documentation for "
+weight = 1
+languageName = "English"
+
+[Languages.de]
+title = "Dokumentation für "
+weight = 2
+languageName = "German"
+
+[params.mainLogo]
+src = "/img/kubermatic.svg"
+alt = "Kubermatic logo"
+
+[[params.externals]]
+title = "Imprint"
+url = "https://www.kubermatic.com/imprint"
+
+[[params.socials]]
+url = "https://www.kubermatic.com"
+class = "fa fa-globe"
+
+[[params.socials]]
+url = "https://twitter.com/Kubermatic"
+class = "fab fa-twitter"
+
+[[params.socials]]
+url = "https://github.com/kubermatic/"
+class = "fab fa-github"
+
+[[params.socials]]
+url = "https://www.youtube.com/channel/UCHyOXqpOR7TRyOzS5bolcUw"
+class = "fab fa-youtube"
+
+[[params.socials]]
+url = "https://www.facebook.com/kubermatic/"
+class = "fab fa-facebook-f"
